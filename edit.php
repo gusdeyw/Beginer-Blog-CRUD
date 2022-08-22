@@ -11,6 +11,7 @@
     $result= mysqli_query($con,$query);
     // $query=mysqli_query($con,"select * from list_gambar where id_blog='$_GET[kode]'");
     $row=mysqli_fetch_array($result); 
+    $gambar= $row['gambar'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,11 +30,14 @@
                 <td>Nomor</td>
                 <td><input hidden type="text" name=id_blog value="<?=$row['id_blog']?>" ></td>
             </tr>
-        <tr>
-                <td width="130">Upload Gambar</td>
-                <td><input type="text" name="fileToUpload" id="fileToUpload" value="<?php echo $row['gambar'] ?>"></td>
-                
-            </tr>
+            <tr>
+                <td width="130">Hasil Gambar</td>
+                <td><img src="<?= $gambar?>" class="rounded-lg" style="height: 200px;"></td>
+           </tr>
+           <tr>
+           <td width="130">ganti Gambar</td>
+                <td><input type="file" name="fileToUpload" id="fileToUpload"></td>
+           </tr>
             <!-- <tr>
                 <td>ubah gambar</td>
                 <td>
