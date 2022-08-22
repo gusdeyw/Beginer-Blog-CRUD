@@ -32,40 +32,11 @@
 
     <!-- container besar utk text -->
     
-    <div class="w-10/12 min-h-screen mb-5 mx-auto bg-white">
+    <div class="w-10/12 min-h-screen mb-5 mx-auto bg-white p-5">
         
         <h1 class="font-bold text-3xl mb-5"><?= $row['judul']?></h1> 
-        <p><?= $row['deskripsi']?></p>
-        <!-- <ul class="list-decimal">
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-            <li>
-                <h2 class="text-lg font-semibold">Ubud Monkey Forest Ubud</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis veritatis culpa quisquam enim laborum totam veniam temporibus, consequatur placeat? Delectus inventore ex, nam fugit quaerat corporis illum? Quos, consequatur!</p>
-            </li>
-        </ul> -->
+        <p class="text-2xl"><?= $row['deskripsi']?></p>
+        
     </div>
 
     
