@@ -21,6 +21,16 @@
             margin-top: 10px;
         }
 
+        .user{
+            background-color: green;
+            color : white;
+            padding : 10px;
+            font-size : 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -81,7 +91,9 @@
         }
         ?>
 
-<center><a href="add.php" class="tambah">+ &nbsp; Tambah Produk</a><center>
+<center><a href="add.php" class="tambah">+ &nbsp; Tambah Produk</a>
+        <a href="index.php" class="user">+ &nbsp; User </a>
+<center>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 <script>

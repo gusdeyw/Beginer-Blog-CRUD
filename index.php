@@ -10,7 +10,7 @@
 <body class="bg-gray-200 text-black">
     <?php
         include "koneksi.php";
-        $query="SELECT * FROM list_gambar where tanggal <= CURDATE() && status = 'aktif'";
+        $query="SELECT * FROM list_gambar where tanggal <= NOW()  && status = 'aktif'";
         $result=mysqli_query($con,$query);
     ?>
     <!-- utk container mau seberapa besar-->
@@ -29,7 +29,7 @@
             ?>
             <!-- pembungkus content nomor 1 -->
 
-        <div class="max-w-lg bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-lg max-h-min bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700">
            
                 <div class="bg-center bg-cover" style="height: 300px; background-image: url('<?= $gambar ?>');"></div>
            
