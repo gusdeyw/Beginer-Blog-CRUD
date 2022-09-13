@@ -64,9 +64,8 @@ $query = "INSERT INTO list_gambar (gambar, judul, deskripsi, tanggal, status) VA
 $result = mysqli_query($con, $query);
 //result akan menampung boolean tipe data yes/no
 if ($result){
-    
     echo "<br>";
-    echo "<script>alert('Data berhasil ditambah.');window.location='table.php';</script>";
+    echo "<script>alert('Blogs are saved Successfuly.');window.location='blog-list.php';</script>";
     
 }
 else{
