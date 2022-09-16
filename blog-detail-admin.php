@@ -13,7 +13,7 @@ $result = mysqli_query($con, $query);
 $row = mysqli_fetch_array($result);
 $gambar = $row['gambar'];
 ?>
-<?php include 'layout/header.php'; ?>
+<?php include '../admin/layout/header.php'; ?>
 <script src="//cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
 <title>Blog <?= $row['judul'] ?> Detail</title>
@@ -21,7 +21,7 @@ $gambar = $row['gambar'];
 
 <body class="bg-gray-100 font-sans flex text-black">
     <!-- Navbar & Sidebar -->
-    <?php include 'layout/navbar.php'; ?>
+    <?php include '../admin/layout/navbar.php'; ?>
 
     <div class="w-full overflow-x-hidden border-t flex flex-col">
         <form action="update.php" method="POST" enctype="multipart/form-data">

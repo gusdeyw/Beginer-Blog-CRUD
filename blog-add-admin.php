@@ -9,7 +9,6 @@
     <?php include 'layout/navbar.php'; ?>
 
     <div class="w-full overflow-x-hidden border-t flex flex-col">
-        <form action="proses.php" method="POST" enctype="multipart/form-data">
             <main class="w-full flex-grow p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
@@ -55,12 +54,10 @@
                 <div class="flex">
                     <button type="submit" name="submit" class="mt-6 rounded-md px-6 py-2 bg-bvr20 text-white">Save</button>
                     <!-- <button class="mt-6 ml-4 rounded-md px-6 py-2 bg-gray-500 text-white">Save and Close</button> -->
-                    <button class="mt-6 ml-4 rounded-md px-6 py-2 bg-gray-300 text-gray-800"><a href="blog-list.php">Cancel</a></button>
+                    </form>
+                    <a href="https://bvrproperty.com/admin/blog-list"><button class="mt-6 ml-4 rounded-md px-6 py-2 bg-gray-300 text-gray-800">Cancel</button></a>
                 </div>
-        </form>
-
         </main>
-        </form>
     </div>
 
     </div>
